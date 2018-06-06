@@ -1,5 +1,6 @@
 Filebeat
 =========
+[![Travis-CI](https://travis-ci.org/deadc/deadcow.filebeat.svg?branch=master)](https://travis-ci.org/deadc/deadcow.filebeat)
 
 O Filebeat ajuda você a facilitar coisas simples, oferecendo uma maneira leve de encaminhar e centralizar logs e arquivos.
 
@@ -71,7 +72,7 @@ filebeat.yml
         output_hosts:
           elasticsearch:
             - 127.0.0.1
-            
+
       roles:
          - filebeat
 
@@ -83,4 +84,4 @@ BSD
 Informações sobre o autor
 ------------------
 
-Essa role foi criada em 2018 por Thiago Freitas (thiago.freitas@rivendel.com.br).
+Essa role foi criada em 2018 por Thiago Freitas (deadcow@archlinux.com.br).
